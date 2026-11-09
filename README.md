@@ -5,7 +5,7 @@
 **Disciplina:** Soluções em Energias Renováveis e Sustentáveis (SERS)
 
 ## Integrantes
-| Nome completo | RM | Turma | Frente |
+| Nome completo | RM | Turma | 
 | --- | --- | --- | --- |
 | Thiago Nascimento de Sá | 575074 | 1CCPS |
 | Erick Vieiro Martins | 575683 | 1CCPS |
