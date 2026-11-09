@@ -1,0 +1,49 @@
+flowchart LR
+    subgraph FONTES["Fontes de energia"]
+        FV["Painéis fotovoltaicos<br/>10 kWp"]
+        INV["Inversor<br/>conectado à rede"]
+        REDE["Rede elétrica<br/>da distribuidora"]
+        FV --> INV
+    end
+
+    QD["Quadro de distribuição<br/>da UBS"]
+    INV --> QD
+    REDE --> QD
+
+    subgraph CARGAS["Equipamentos consumidores"]
+        LED["Iluminação LED<br/>com sensores de presença"]
+        CLIM["Climatização<br/>ar-condicionado e ventiladores"]
+        TI["Computadores, impressoras<br/>e roteadores"]
+        MED["Equipamentos médicos<br/>e geladeira de medicamentos"]
+        OUT["Bomba d'água"]
+    end
+
+    QD --> LED
+    QD --> CLIM
+    QD --> TI
+    QD --> MED
+    QD --> OUT
+
+    subgraph MEDICAO["Sensores e dados de consumo"]
+        MG["Medidor geral<br/>de consumo kWh"]
+        MF["Medidor de geração<br/>do inversor kWh"]
+        SP["Sensores de presença<br/>tempo de uso da iluminação"]
+    end
+
+    QD -.-> MG
+    INV -.-> MF
+    LED -.-> SP
+
+    subgraph LOGICA["Monitoramento e processamento"]
+        COL["Coleta periódica<br/>das leituras"]
+        REG["Lógica de monitoramento<br/>comparação com a linha de base<br/>e alerta de consumo fora do padrão"]
+        CALC["Processamento<br/>E = P x t / 1000, economia,<br/>R$ e kg CO2"]
+        COL --> REG --> CALC
+    end
+
+    MG --> COL
+    MF --> COL
+    SP --> COL
+
+    DASH["Neighborhood Action Dashboard<br/>consumo, geração solar, economia kWh e %,<br/>economia R$, participação solar,<br/>emissões evitadas"]
+    CALC --> DASH
