@@ -1,0 +1,10 @@
+equipamento,quantidade,potencia_w,horas_dia,dias_mes,observacao
+Lâmpadas convencionais,12,40,10,22,Expediente de 7h às 17h (10 h/dia); estimativa do grupo
+Computadores,10,120,8,22,Estimativa do grupo; validar com a UBS
+Ar-condicionado,4,1500,6,22,Uso parcial do expediente; estimativa do grupo
+Geladeira de medicamentos,1,250,24,30,Funcionamento contínuo; premissa conservadora (o compressor cicla)
+Equipamentos médicos,5,100,8,22,Equipamentos de baixa potência; estimativa do grupo
+Impressoras,2,400,1,22,Uso intermitente; estimativa do grupo
+Roteadores,2,15,24,30,Funcionamento contínuo
+Ventiladores,4,80,6,22,Estimativa do grupo
+Bomba d'água,1,750,0.5,22,Acionamento curto; estimativa do grupo
