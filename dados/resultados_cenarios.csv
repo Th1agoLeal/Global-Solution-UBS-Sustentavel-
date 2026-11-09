@@ -1,0 +1,5 @@
+cenario,descricao,consumo_original_kwh_mes,consumo_pos_eficiencia_kwh_mes,geracao_solar_kwh_mes,solar_aproveitado_kwh_mes,consumo_rede_kwh_mes,reducao_kwh_mes,reducao_pct,participacao_solar_pct,economia_bruta_rs_mes,manutencao_rs_mes,economia_liquida_rs_mes,custo_energia_rede_rs_ano,investimento_rs,payback_meses,emissoes_evitadas_kg_ano
+Situação atual,Sem melhorias; toda a energia vem da rede.,1466.49,1466.49,0.0,0.0,1466.49,0.0,0.0,0.0,0.0,0.0,0.0,13891.41,0.0,,0.0
+A - LED + sensores,Eficiência energética na iluminação.,1466.49,1394.15,0.0,0.0,1394.15,72.34,4.93,0.0,57.1,5.0,52.1,13206.21,1500.0,28.79,40.02
+B - Solar FV,Geração fotovoltaica conectada à rede (fonte renovável).,1466.49,1466.49,1200.0,1200.0,266.49,1200.0,81.83,81.83,947.26,25.0,922.26,2524.34,26600.0,28.84,663.84
+C - LED + sensores + solar,Combinação de eficiência e geração renovável (proposta).,1466.49,1394.15,1200.0,1200.0,194.15,1272.34,86.76,86.07,1004.36,30.0,974.36,1839.14,28100.0,28.84,703.86
