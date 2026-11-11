@@ -8,7 +8,6 @@
 | Nome completo          | RM     | Turma |
 |------------------------|--------|-------|
 | Thiago Nascimento de Sá | 575074 | 1CCPS |
-| Erick Vieiro Martins    | 575683 | 1CCPS |
 
 ## Estrutura do repositório
 
